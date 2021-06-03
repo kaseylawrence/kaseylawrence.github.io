@@ -21,4 +21,4 @@ github_username:  kaseylawrence
 
 # Build settings
 markdown: kramdown
-theme: minimal
+theme: architect
