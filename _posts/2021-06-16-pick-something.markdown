@@ -11,11 +11,11 @@ One thing that has I have always struggled with is my vast array of interests an
 The other element to this is when growing up I was often told I was smart - this reinforcement at a young age then wraps someone up in an identity. As someone who identifies a smart, one avoids doing anything that would make one appear incompetent or inexperienced. This underlying problems results in avoidance of doing hard and new things, the inhibition of learning, and preoccupation with shallow tasks. For me, this has translated into a lot of video games, web surfing, and merely pittling around. Strikingly, I still place a ton of value on learning how to do things, but generally not enough to master them.
 
 Two pieces of advice to anyone who was told they were smart when growing up and now struggle with something similar to me: 
-##Pick something
+## Pick something
 Pick one thing and focus on it as hard as you can. If you have hobbies (spinning plates) that you can't really put down right now, find ways to automate or simplify your time with them for a while. 
 
-##Work on your routine 
-We're so impatient now and we foget that consistency every day/week over time yields drastic results. There is  alot of time left in my day that is wasted due to poor routines and schedules. Once you pick that one thing to focus on, work in 30 minutes each day to start. Don't focus on changing 30 habits all at once - just one, maybe two. Right now, I'm focusing on [mediating](https://www.calm.com/) every day and doing [codecademy](https://www.codecademy.com/) at least 3x/week. You can even set your learning goals within the app. So far I've seen drastic improvements in my overall life satisfaction just by making small adjustments to my routine.
+## Work on your routine 
+We're so impatient now and we foget that consistency every day/week over time yields drastic results. There is  alot of time left in my day that is wasted due to poor routines and schedules. Once you pick that one thing to focus on, work in 30 minutes each day to start. Don't focus on changing 30 habits all at once - just one, maybe two. Right now, I'm focusing on [meditating](https://www.calm.com/) every day and doing [codecademy](https://www.codecademy.com/) at least 3x/week. You can even set your learning goals within the app. So far I've seen drastic improvements in my overall life satisfaction just by making small adjustments to my routine.
 
 
 
