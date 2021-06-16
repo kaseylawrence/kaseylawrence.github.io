@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Pick something"
-date:   2021-06-02 23:13:15 +0000
+date:   2021-06-16 23:13:15 +0000
 categories: misc
 ---
 <!---You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated. --->
@@ -11,7 +11,7 @@ One thing that has I have always struggled with is my vast array of interests an
 The other element to this is when growing up I was often told I was smart - this reinforcement at a young age then wraps someone up in an identity. As someone who identifies a smart, one avoids doing anything that would make one appear incompetent or inexperienced. This underlying problems results in avoidance of doing hard and new things, the inhibition of learning, and preoccupation with shallow tasks. For me, this has translated into a lot of video games, web surfing, and merely pittling around. Strikingly, I still place a ton of value on learning how to do things, but generally not enough to master them.
 
 Two pieces of advice to anyone who was told they were smart when growing up and now struggle with something similar to me: 
-## Pick something
+## Focus on one thing
 Pick one thing and focus on it as hard as you can. If you have hobbies (spinning plates) that you can't really put down right now, find ways to automate or simplify your time with them for a while. 
 
 ## Work on your routine 
