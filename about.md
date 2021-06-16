@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm Kasey. I'm currently a Field Applications Scientist for Enterprise Software in the genomics space. Previously I was a Molecular Lab Technical Director for Oncology and after a long struggle, embarked on a different route that is more involved with bioinformatics, coding, and customer-facing. Here I post about random things and use this domain as a bit of a code sandbox. Right now I'm using [github pages](https://pages.github.com/), [jekyll](https://jekyllrb.com/), and [namecheap](namecheap.com).
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+
+
