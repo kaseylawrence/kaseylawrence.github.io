@@ -57,6 +57,34 @@ for elm in findBooks:
     print(category)
 {% endhighlight %}
 
+Output:
+{ %highlight text %}
+cooking
+children
+web
+{% endhighlight %}
+
+xPaths can also be set similar to wildcards by using ".//itenname" - the specified tag will be found throughout the entire document, regardless of its hierarchy. The 'find' attribute can also be utilized to find tags. Once a tag is found, the text/data within the tag can be called using .text. Expanding the loop above:
+
+{% highlight python %}
+for elm in findBooks:
+    category = elm.attrib['category'] 
+    #print(category)
+    title = elm.find('title').text
+    author = elm.find('author').text
+    year = elm.find('year').text
+    price = elm.find('price').text
+    print(f'The book {title} written by {author} in the year {year} is on sale for {price}'')
+  
+{% endhighlight %}
+
+Output:
+{% highlight text %}
+The book Everyday Italian written by Giada De Laurentiis in 2005 is 30.00
+The book Harry Potter written by J K. Rowling in 2005 is 29.99
+The book Learning XML written by Erik T. Ray in 2003 is 39.95
+{% endhighlight %}
 
 ## json examples here
 
+Work in progress 
