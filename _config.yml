@@ -8,7 +8,7 @@
 # Site settings
 title: Kasey Lawrence - full-stack distraction
 email: kasey@rebootbio.com
-description:  # this means to ignore newlines until "baseurl:"
+description: >  # this means to ignore newlines until "baseurl:"
   Genomics resident for 10+ years. Next-Gen Sequencing E2E. I'm now carving a newer path
   focusing on data and software. Thoughts are my own. Other interests: Poison-Dart frogs,
   reef tanks, Raspberry Pi, video games, gardening, travelling, among too many other things 
