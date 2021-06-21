@@ -58,7 +58,7 @@ for elm in findBooks:
 {% endhighlight %}
 
 Output:
-{ %highlight text %}
+{% highlight text %}
 cooking
 children
 web
