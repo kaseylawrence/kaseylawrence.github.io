@@ -5,7 +5,8 @@ date:   2021-06-20 19:13:15 +0000
 categories: data
 ---
 <!---You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated. --->
-
+![](/images/data.jpg)
+Format: ![Doh! Stock photos](url)
 Over the past few years I have stepped my feet in and out of the water of data science and bioinformatics - most of it self-taught through necessity. In the past I've generated a multitude of genomics data from various sample types and library prep workflows that needed analysis. The need to make sense of all of the data was what ignited my love for linux, informatics, and coding. The tech realm is vast and one can never learn everything. I was definitely better in the past in some aspects due to immersion. About 5-6 years ago I was building command-line pipelines, improving in Docker, and solving some really interesting problems for my labmates. I'm back in a more data-centric role and have already seen myself make strides in these areas again.
 
 Across all of the tutorials, course materials and classes I have taken for coding and data science, one of the most important aspects of this field goes silent: dealing with structured data. One of the first things data scientists should be learning is how to actually look at data in json and xml formats. I don't understand why this is not even addressed - we deal with these data structures constantly and have yet to see these covered in course materials unless hunting them down. 
@@ -137,6 +138,7 @@ print(newData['glossary']['GlossDiv']['GlossList']['GlossEntry']['Abbrev'])
  
 
 {% endhighlight %}
+
 Output:
 {% highlight text %}
 ISO 8879:1986
