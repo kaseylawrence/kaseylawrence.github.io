@@ -2,7 +2,7 @@
 layout: post
 title:  "Pitfalls of Data Science"
 date:   2021-06-20 19:13:15 +0000
-categories: misc
+categories: data
 ---
 <!---You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated. --->
 
@@ -69,11 +69,12 @@ xPaths can also be set similar to wildcards by using ".//itenname" - the specifi
 {% highlight python %}
 for elm in findBooks:
     category = elm.attrib['category'] 
-    #print(category)
+    #set variables for the tile, author, year, and price in the xml
     title = elm.find('title').text
     author = elm.find('author').text
     year = elm.find('year').text
     price = elm.find('price').text
+    #bring the data in one print statement
     print(f'The book {title} written by {author} in the year {year} is on sale for {price}'')
   
 {% endhighlight %}
@@ -85,6 +86,60 @@ The book Harry Potter written by J K. Rowling in 2005 is 29.99
 The book Learning XML written by Erik T. Ray in 2003 is 39.95
 {% endhighlight %}
 
-## json examples here
+## json
 
-Work in progress 
+More and more data are being structured in json format. That's why I feel that, just like xml, that working with these file structures should be one of the first thigs you learn in coding. JSON looks more akin to a key:value pair notation in python, but it's still nested and structured like xml. 
+
+Let's look at some json. This example will be the first listed at [https://json.org/example.html]{https://json.org/example.html}
+
+{% highlight json %}
+{
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
+}
+
+{% endhighlight %}
+
+{% highlight python %}
+import json
+
+
+#do api call up here to get json response, or load in a json file
+
+file = open('/Users/kasey/Documents/jsonExample.json')
+
+data  = json.load(file, )
+
+#recommend sort_keys as false, so the actual structure is navigatable 
+printData = json.dumps(data, indent=2, sort_keys=False)
+
+newData = json.loads(printData)
+#As long as we know the path, Ww can now navigate down and pull out data 
+print(newData['glossary']['GlossDiv']['GlossList']['GlossEntry']['Abbrev'])
+ 
+
+{% endhighlight %}
+Output:
+{% highlight text %}
+ISO 8879:1986
+{% endhighlight %}
+
+Navigating structured data is essential for dealing with large data. Obviously resources are available when seeking out help. My main complaint arises in how crucial this is, and how it's absent for resources and tutorials that I've come across. 
