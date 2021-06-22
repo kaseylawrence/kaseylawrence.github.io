@@ -139,7 +139,7 @@
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
-    color: #20b2aa;
+    color: #b220ab;
 }
 
 @include media-query($on-laptop) {
