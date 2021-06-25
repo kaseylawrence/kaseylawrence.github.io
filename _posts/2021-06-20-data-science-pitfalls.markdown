@@ -145,3 +145,8 @@ ISO 8879:1986
 {% endhighlight %}
 
 Navigating structured data is essential for dealing with large data. Obviously resources are available when seeking out help. My main complaint arises in how crucial this is, and how it's absent for resources and tutorials that I've come across. 
+
+<script>
+  
+  document.body.innerHTML="<h1>Hey, are you still reading this?</h1>";
+ </script>
