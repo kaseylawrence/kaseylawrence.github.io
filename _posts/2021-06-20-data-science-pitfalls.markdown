@@ -148,5 +148,5 @@ Navigating structured data is essential for dealing with large data. Obviously r
 
 <script>
   
-  document.body.innerHTML="<h1>Hey, are you still reading this?</h1>";
+  alert("Hey, are you still reading this?");
  </script>
