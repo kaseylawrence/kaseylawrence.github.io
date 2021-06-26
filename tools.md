@@ -13,6 +13,8 @@ permalink: /tools/
  </ul>
 </form>
 
+<button id='color-button'>Rev.Comp</button>
+
 
 
 
