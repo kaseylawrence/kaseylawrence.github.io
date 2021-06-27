@@ -12,7 +12,7 @@ The "you didn't build that" movement/message was taken poorly. I remember being 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YKjPI6no5ng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-##The Success Triangle
+## The Success Triangle
 ![The success triangle](/images/success.png)
 
 We stand on the shoulders of giants. YouTube stars would not be as successful without the progress made in the tech industry, the platform to share their videos on, the rapid price reduction and accessibilty of video cameras, and the personal computer revolution. Thought incredibly behind compared to the globe, don't forget about the evolution of broadband speeds from dialup to where we are now. Not to mention all fo the code libraries and eveything under the hood that makes everything run. It's an incredibly complex world that we take for granted everyday. Someone built it. You can build the next version.
