@@ -8,7 +8,7 @@ categories: tech
 We're watching a lot of new frontiers in technology emerge right now. This is my list of things that seem to be emerging that anyone interested in new tech should be paying close attention to. This article is a love note to myself to not miss the waves that I see coming, have my surfboard ready, but just miss the timing. 
 
 ## Proteomics
-Next-generation sequencing has dominated the omics space for the past decade. While genomics will always have its relevance, [Proteomics](https://www.forbes.com/sites/stephenmcbride1/2021/06/23/proteomics-the-next-truly-massive-investing-opportunity/) has made a lot of progress and I'm really excited to see how it evolves. Jonathan Rothberg, who could arguably be an Elon Musk-like figure for Biotech, is working on [Quantum-Si] (https://www.quantum-si.com/), which will most likely emerge as the dominant Protein Sequencing technology over the next 5-10 years. Rothberg is one of my heroes. 
+Next-generation sequencing has dominated the omics space for the past decade. While genomics will always have its relevance, [Proteomics](https://www.forbes.com/sites/stephenmcbride1/2021/06/23/proteomics-the-next-truly-massive-investing-opportunity/) has made a lot of progress and I'm really excited to see how it evolves. Jonathan Rothberg, who could arguably be an Elon Musk-like figure for Biotech, is working on [Quantum-Si](https://www.quantum-si.com/), which will most likely emerge as the dominant Protein Sequencing technology over the next 5-10 years. [Rothberg](https://twitter.com/JMRothberg) is one of my heroes and I'd really love to interview (podcast?!) or even read his autobiography. 
 
 ## Web 3.0
 
