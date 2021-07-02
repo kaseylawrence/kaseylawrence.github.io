@@ -5,6 +5,7 @@ permalink: /resources/
 ---
 
 <ul class="accordion">
+<script src="_assets/accordion.js"></script>
     <li>
         <button class="accordion-control">Fiction</button>
         <div class="accordion-panel">
