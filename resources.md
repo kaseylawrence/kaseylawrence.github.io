@@ -3,7 +3,7 @@ layout: page
 title: Resources
 permalink: /resources/
 ---
-
+{% include accordion.html %}
 ___
 accordion:
     - title: Fiction</button>
