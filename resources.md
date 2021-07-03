@@ -6,11 +6,11 @@ permalink: /resources/
 {% include accordion.html %}
 
 ---
-accordion:
-- title: Fiction
-    content: test
-
-- title: Non-fiction
-    content: test 123
+---
+accordion: 
+  - title: this is item 1
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+  - title: this is item 2
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ---
 
