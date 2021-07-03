@@ -3,9 +3,9 @@ layout: page
 title: Resources
 permalink: /resources/
 ---
-<script src="kaseylawrence.com/assets/accordion.js"></script>
+
 <ul class="accordion">
-<script src="_assets/accordion.js"></script>
+<script src="/assets/accordion.js"></script>
 <li>
 <button class="accordion-control">Fiction</button>
 <div class="accordion-panel">
