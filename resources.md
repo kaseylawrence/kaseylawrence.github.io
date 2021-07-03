@@ -4,8 +4,6 @@ title: Resources
 permalink: /resources/
 ---
 {% include accordion.html %}
-
----
 ---
 accordion: 
   - title: this is item 1
