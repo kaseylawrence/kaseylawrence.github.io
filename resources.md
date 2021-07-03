@@ -4,10 +4,6 @@ title: Resources
 permalink: /resources/
 ---
 
-Test 123
-
-
-<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -24,25 +20,20 @@ Test 123
   </script>
 </head>
 <body>
- 
+<h3> Books I'm reading </h3> 
 <div id="accordion">
-  <h3>Section 1</h3>
+  <h3>Non-Fiction</h3>
   <div>
-    <p>
-    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-    </p>
+    <ul>
+    <li>The First 90 days by Michael Watkins</li>
+    </ul>
+    
   </div>
-  <h3>Section 2</h3>
+  <h3>Fiction</h3>
   <div>
-    <p>
-    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-    suscipit faucibus urna.
-    </p>
+    <ul>
+    <li>Children of Ruin by Adrian Tchaikovsky</li>
+    </ul>
   </div>
   <h3>Section 3</h3>
   <div>
