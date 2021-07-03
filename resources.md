@@ -3,7 +3,7 @@ layout: page
 title: Resources
 permalink: /resources/
 ---
-
+<script src="/assets/accordion.js"></script>
 <ul class="accordion">
 <script src="_assets/accordion.js"></script>
 <li>
