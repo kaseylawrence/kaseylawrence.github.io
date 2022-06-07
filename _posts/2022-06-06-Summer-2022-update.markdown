@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Summer 2022 Update"
+date:   2022-06-04 08:13:15 +0000
+categories: biotech
+---
+
+Well, after two and a half years of winning, I finally caught the 'rona. Thankfully I've had a mild case - my fever broke within twenty-four hours and I'm dealing with some head and chest congestion. I'm on day 8 and am still testing positive. My main hope right now is not passing this virus off on anyone. What a crazy concept.
+
+This blog has definitely been under-utilized over the past few years. There's so much out there to talk about and learn - it's pretty overwhelming. Even so, I have not even followed my own advice to just pick something. Okay, I've picked things, but still too many to be able to focus. So, today I'm making this post using gitpod, which makes it incredibly easy to update in the browser.
+
+Over the past six months, there has been a slew of activity on the DNA Sequencing platform side, which for competition's sake, is quite exciting. Since I am an employee of a prominent player in this market, I only want to observe from a sci-bio-tech perspective and be an impartial player.
+
+So, agnostically, some things I've observed:
+
+- Showings from Element,Singular,and the latest: Ultima. Element and Singular seem to be eyeing the benchtop market where Ultima is looking for scale.
+- [Sentieon](https://www.sentieon.com/products/) has positioned itself to be the data pipeline platform of choice for these new sequencing platforms with strategic partnerships. 
+- PacBio did a rebrand and is really making a big push against [Infinity's chemistry even having a leg to stand on](https://www.pacb.com/blog/the-hifi-difference-getting-the-right-answer/). Some have indicated that the blog post above was very defensive. I'm not sure what I think about it.
+- I've been eyeing a MinION from Oxford Nanopore since they came out. Maybe one day.
+<iframe src="https://giphy.com/embed/CPDbE8X0nEe3u" width="480" height="260" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/CPDbE8X0nEe3u">via GIPHY</a></p>
+
+What are your thoughts on all of the news and activity in this space?
+
+
