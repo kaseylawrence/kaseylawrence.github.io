@@ -2,7 +2,7 @@
 layout: post
 title:  "I deleted all of my tweets"
 date:   2022-09-03 08:13:15 +0000
-categories: social
+categories: misc
 ---
 
 I joined Twitter in November 2008, the same year the original iPhone was released. I still don't own an iPhone for personal use. Android 'till I die. Back then, it was tweeting via SMS and having Tweetdeck open on the computer. At some point, I decided to protect my tweets in order to not be so public with social media. Last week, I decided that I should make a change and reach for a fresh start. So, I decided to delete all of my Tweets.
