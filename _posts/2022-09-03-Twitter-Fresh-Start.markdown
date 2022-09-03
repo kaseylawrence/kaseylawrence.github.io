@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "I deleted all of my tweets"
-date:   2022-09-03 08:13:15 +0000
+date:   2022-09-02 08:13:15 +0000
 categories: misc
 ---
 
