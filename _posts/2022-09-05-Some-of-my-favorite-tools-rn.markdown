@@ -6,7 +6,7 @@ categories: misc
 ---
 
 ## [VSCode](https://code.visualstudio.com/)
-As a code editor, I personall don't think there's a better option than Visual Studio Code. VSCode has so many extensions and options, it's an iceburg of possiblity.
+As a code editor, I personall don't think there's a better option than Visual Studio Code. VSCode has so many extensions and options, it's an iceberg of possiblity.
 <iframe src="https://giphy.com/embed/yrFrXTTTcHIY0" width="480" height="198" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/yrFrXTTTcHIY0">via GIPHY</a></p>
 
 ## [Gitpod](https://gitpod.io)
