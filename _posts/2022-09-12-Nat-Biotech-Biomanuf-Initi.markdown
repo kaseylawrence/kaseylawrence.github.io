@@ -27,7 +27,7 @@ Many U.S. Biotech companies outsource manufacturing, even software development. 
  Federal informatics systems need a drastic overhaul. This could be a separate post.
 
  - Train a Diverse Skilled Workforce. 
-  > The United States is facing a shortage of relevant talent spanning all levels, from community college to graduate > school. The Initiative will expand training and education opportunities for all Americans in biotechnology and biomanufacturing, with a focus on advancing racial and gender equity and support for talent development in >underserved communities.
+  > The United States is facing a shortage of relevant talent spanning all levels, from community college to graduate school. The Initiative will expand training and education opportunities for all Americans in biotechnology and biomanufacturing, with a focus on advancing racial and gender equity and support for talent development in >underserved communities.
   
   100 percent onboard here. One barrier for biotech is the stigma of not having a PhD. I've struggled with this my entire career and I know many others that have as well. Elon Musk's view of MBAs may be an equivalent attitude we need to adopt when it comes to PhDs and science. Please please please also do not misinterpret what I mean: I have incredible respect for those with PhDs and mean absolutely no disrespect. However, I would like to see less barriers to entry for innovation. Not having this type of degree is definitely one of those barriers.
 
@@ -38,10 +38,12 @@ Many U.S. Biotech companies outsource manufacturing, even software development. 
 
  - Advance Biosafety and Biosecurity to Reduce Risk. 
   > The Initiative will prioritize investments in applied biosafety research and incentivize innovations in biosecurity to reduce risk throughout the biotechnology research and development lifecycles.
+
   Translation: Let's make sure we stop finding Smallpox stashed in the back of someone's -80C.
 
  - Protect the U.S. Biotechnology Ecosystem. 
   > The Initiative will protect the U.S. biotechnology ecosystem by advancing privacy standards and practices for human biological data, cybersecurity practices for biological data, standards development for bio-related software, and mitigation measures for risks posed by foreign adversary involvement in the biomanufacturing supply chain.
+  
   Standards for bio-related software sounds pie-in-the-sky but I do agree that there should be some standards, similar to NCCN guidelines or CAP but for software. HL7/FHIR should be taught in school and there should be more tutorials out there.
 
  - Build a Thriving, Secure Global Bioeconomy with Partners and Allies. 
