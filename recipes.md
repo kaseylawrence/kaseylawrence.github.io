@@ -27,6 +27,3 @@ My wife has requested that I record some of my recipes
 The bread crumbs did not really hydrate that well so I had to mix them in later. I think I'll try a new approach next time. 
 
 This turned out really well so my wife reminded me to write it down.
-
-</body>
-</html>
