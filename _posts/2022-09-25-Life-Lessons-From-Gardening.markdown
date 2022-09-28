@@ -65,3 +65,6 @@ categories: series
 # Consistency wins
     - A little each day might be all it takes
 
+# The good stuff is during the bookends of the day
+    - Morning and evening: best time to plant seeds
+    
