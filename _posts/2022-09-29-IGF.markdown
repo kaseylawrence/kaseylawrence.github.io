@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Thoughts on the Illumina Genomics Forum 2022"
-date:   2022-10-01 08:13:15 +0000
+date:   2022-09-29 08:13:15 +0000
 categories: biotech
 ---
 # Welcome to the Genome Era
