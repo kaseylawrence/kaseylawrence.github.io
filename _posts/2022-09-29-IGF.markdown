@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Thoughts on the Illumina Genomics Forum 2022"
+date:   2022-10-01 08:13:15 +0000
+categories: biotech
+---
+# Welcome to the Genome Era
+
+I leave today inspired for the next decade of genomics. So much has changed in the past ten years, and I am thankful to have been a part of it. From Sanger to 454, from GAII to NovaSeq 6000...it's been a ride. Now with the unveiling of the NovaSeq X series and surrounding technology...all of the patents, years, and people involved to bring technological advancement and innovation forward. 
+
+This instrument is a testament to the adage "If you want to go fast, go alone. If you want to go far, go together." I know I butchered it. ::googles:: oh no wait I didn't!!!! (That was a somewhat real-time reaction)
+
+Ok, I'll definitely not to sound too kool-aidy. To me, there have been times lately that the company has seemed reactive to what other players in the field are doing. There has been this underdog mentality that has persisted for much longer than necessary. Either way, competition is a great thing. It pushes us all forward. Once again, however, the company is so far ahead of anyone else, I personally do not view there as competition. It's quite striking how this next decade will still be dominated by the same behemoth of the last decade. *Whoever has will be given more, and they will have an abundance. Whoever does not have, even what they have will be taken from them. Matthew 13:12* Yep I just quoted the bible. 
+
+Footage of the company pulling away from the competition yet again:
+<iframe src="https://giphy.com/embed/vCJrwYGBQlbdS" width="480" height="263" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/usain-bolt-vCJrwYGBQlbdS">via GIPHY</a></p>
+
+
+Personally, I think 10x Genomics is really going to break some barriers on this new platform. Not to mention that we will have an even greater need for better data storage, better informatics, and faster automation. We have to be able to feed these instruments at a breakneck pace!
+
+This is yet another sequencer that I will most likely not generate any data on, and my FOMO is already starting to act up. I love this field though and there's so much excitement in the air after today.
