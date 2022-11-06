@@ -24,11 +24,11 @@ saved the above in a .js file, then ran node pocketbase_auth.js.
 Got an error: `Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.`
 
 This meant I needed to create a package.json file in the same directory that looked like this:
-{% highlight json %}
+```json
 {
     "type": "module"
 }`
-{% endhighlight %}
+```
 Then I got a new error: 
 {% highlight bash %}
 ReferenceError: AbortController is not defined
@@ -40,7 +40,7 @@ Then the final command the worked. The experimental-modules may or not be necess
 `node --experimental-modules pocketbase_auth.js`
 {% endhighlight %}
 Response with a Token:
-{% highlight json % }
+```json
 {
   admin: n {
     id: '2qbuk2zk58u3wdl',
@@ -52,16 +52,18 @@ Response with a Token:
   },
   token: 'LongTokenHere'
 }
-{% endhighlight %}
+```
 
 Using Postman to create an entry in the database via the API:
 
 Include in the header: 
-{% highlight json %}
-'Authorization': 'Admin tokenHere'
-{% endhighlight %}
+```json
+{
+    'Authorization': 'Admin tokenHere'
+}
+```
 POST to /api/collections/samples/records with form-data option:
-{% highlight json %}
+```json
 {
     "@collectionId": "4s1qnhuxv33im85",
     "@collectionName": "samples",
@@ -71,7 +73,8 @@ POST to /api/collections/samples/records with form-data option:
     "sampleid": 123456,
     "updated": "2022-11-06 19:54:27.056"
 }
-{% endhighlight %}
+```
+
 Definitely felt great to see that first 200 response come through. Hands went up for sure.
 <iframe src="https://giphy.com/embed/xT9IgKWQeoclWggTDO" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/laff-tv-comedy-that-70s-show-xT9IgKWQeoclWggTDO">via GIPHY</a></p>
 
