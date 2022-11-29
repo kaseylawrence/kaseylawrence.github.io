@@ -15,7 +15,7 @@ description: >  # this means to ignore newlines until "baseurl:"
   to list. Extremely happily married. Two wonderful children and a really fun life. Prone
   to negative emotion but I'm working on it!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kaseylawrence.com.com" # the base hostname & protocol for your site
+url: "https://kaseylawrence.com" # the base hostname & protocol for your site edit out the double .doc
 twitter_username: pumilio
 github_username:  kaseylawrence
 
