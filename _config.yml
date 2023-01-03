@@ -18,6 +18,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kaseylawrence.com" # the base hostname & protocol for your site edit out the double .doc
 twitter_username: pumilio
 github_username:  kaseylawrence
+google_adsense: pub-5708058898631749
 
 # Build settings
 markdown: kramdown
