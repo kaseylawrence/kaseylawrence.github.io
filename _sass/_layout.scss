@@ -158,6 +158,26 @@
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
+
+    p {
+        color: $text-color;
+        line-height: 1.6;
+    }
+}
+
+// Ensure all footer text is readable
+.site-footer {
+    a {
+        color: $brand-color;
+
+        &:hover {
+            color: $brand-hover;
+        }
+    }
+
+    p, li {
+        color: $text-color;
+    }
 }
 
 @include media-query($on-laptop) {
