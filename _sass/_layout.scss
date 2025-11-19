@@ -2,43 +2,58 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid lightseagreen;
-    min-height: 56px;
+    border-top: 4px solid $brand-color;
+    border-bottom: 1px solid $border-color;
+    min-height: 64px;
+    background-color: $background-color;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -0.5px;
     margin-bottom: 0;
     float: left;
+    transition: color 0.2s ease;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $text-color;
+    }
+
+    &:hover {
+        color: $brand-color;
+        text-decoration: none;
     }
 }
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 64px;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: $text-light;
         line-height: $base-line-height;
+        font-weight: 500;
+        font-size: 15px;
+        transition: color 0.2s ease;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
-            margin-right: 20px;
+            margin-right: 24px;
+        }
+
+        &:hover {
+            color: $brand-color;
+            text-decoration: none;
         }
     }
 
@@ -98,13 +113,17 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid lightseagreen;
-    padding: $spacing-unit 0;
+    border-top: 1px solid $border-color;
+    padding: $spacing-unit * 1.5 0;
+    background-color: $background-alt;
+    margin-top: $spacing-unit * 2;
 }
 
 .footer-heading {
     font-size: 18px;
+    font-weight: 600;
     margin-bottom: $spacing-unit / 2;
+    color: $text-color;
 }
 
 .contact-list,
@@ -114,8 +133,8 @@
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
-    color: lightseagreen;
+    font-size: 14px;
+    color: $text-light;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -139,7 +158,6 @@
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
-    color: #b220ab;
 }
 
 @include media-query($on-laptop) {
@@ -173,7 +191,10 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: $spacing-unit * 1.2;
+    color: $text-color;
 }
 
 .post-list {
@@ -181,18 +202,41 @@
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        margin-bottom: $spacing-unit * 0.8;
+        padding: $spacing-unit * 0.8;
+        border: 1px solid $border-color;
+        border-radius: 8px;
+        background-color: $background-color;
+        transition: all 0.2s ease;
+
+        &:hover {
+            border-color: $brand-color;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transform: translateY(-2px);
+        }
     }
 }
 
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 8px;
+    color: $text-color;
+    transition: color 0.2s ease;
+
+    &:hover {
+        color: $brand-color;
+        text-decoration: none;
+    }
 }
 
 
@@ -201,13 +245,15 @@
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit * 1.5;
 }
 
 .post-title {
     font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+    color: $text-color;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -216,9 +262,16 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    font-size: 17px;
+    line-height: 1.8;
+    color: $text-color;
 
     h2 {
         font-size: 32px;
+        font-weight: 700;
+        margin-top: $spacing-unit * 1.5;
+        margin-bottom: $spacing-unit * 0.7;
+        color: $text-color;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -227,6 +280,10 @@
 
     h3 {
         font-size: 26px;
+        font-weight: 600;
+        margin-top: $spacing-unit * 1.2;
+        margin-bottom: $spacing-unit * 0.6;
+        color: $text-color;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -235,10 +292,30 @@
 
     h4 {
         font-size: 20px;
+        font-weight: 600;
+        margin-top: $spacing-unit;
+        margin-bottom: $spacing-unit * 0.5;
+        color: $text-color;
 
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+
+    p {
+        margin-bottom: $spacing-unit * 0.8;
+    }
+
+    ul, ol {
+        margin-bottom: $spacing-unit * 0.8;
+    }
+
+    blockquote {
+        border-left: 4px solid $brand-color;
+        background-color: $background-alt;
+        padding: $spacing-unit * 0.7;
+        margin: $spacing-unit * 0.8 0;
+        border-radius: 4px;
     }
 }
 
@@ -248,10 +325,40 @@
 */
 
 .coverImg {
+    margin: $spacing-unit * 1.5 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
     img {
-        width:100%;
-        
+        width: 100%;
+        max-width: 400px;
+        display: block;
+        margin: 0 auto;
     }
+
+    @include media-query($on-palm) {
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+/** Substack embed responsive styling */
+.home iframe[src*="substack"] {
+    max-width: 100%;
+    margin: $spacing-unit * 1.5 0;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+/** RSS subscribe link */
+.rss-subscribe {
+    text-align: center;
+    margin-top: $spacing-unit * 1.5;
+    padding-top: $spacing-unit;
+    border-top: 1px solid $border-color;
+    font-size: $small-font-size;
 }
 
 /** accordion test

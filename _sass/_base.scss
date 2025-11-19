@@ -93,13 +93,14 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $brand-color;
     text-decoration: none;
+    transition: color 0.2s ease;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $brand-color;
     }
 
     &:hover {
-        color: $text-color;
+        color: $brand-hover;
         text-decoration: underline;
     }
 }
@@ -129,24 +130,31 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
+    font-family: $code-font-family;
+    font-size: 14px;
+    border: 1px solid $border-color;
+    border-radius: 6px;
+    background-color: $background-alt;
 }
 
 code {
-    padding: 1px 5px;
+    padding: 2px 6px;
+    color: #d73a49;
+    font-weight: 500;
 }
 
 pre {
-    padding: 8px 12px;
+    padding: 16px;
     overflow-x: auto;
+    line-height: 1.5;
 
     > code {
         border: 0;
         padding-right: 0;
         padding-left: 0;
+        color: $text-color;
+        font-weight: 400;
+        background-color: transparent;
     }
 }
 
